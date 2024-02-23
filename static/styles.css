@@ -1,0 +1,251 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model globally */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/hero-placeholder.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e04d00;
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #333;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #ff6600;
+}
+
+/* Chat Styles */
+.grammar-check {
+    padding-top: 100px;
+}
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.chat-window {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.user-input-container {
+    display: flex;
+}
+
+textarea {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e04d00;
+}
+
+.instructions {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* About Page Styles */
+.about {
+    background-color: #fff;
+    color: #333;
+    padding: 50px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 50px auto;
+}
+.about-info {
+    display:flex;
+}
+.image-container img {
+    height: 200px;
+}
+
+.team-info, .testimonials {
+    margin-top: 30px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .cta-button {
+        font-size: 0.9em;
+    }
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #ff6600;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Add this rule to push down content below the fixed navigation bar */
+body {
+    padding-top: 50px; /* Adjust as needed based on your navigation bar height */
+}
+
+/* Style for the chat window */
+#chat-window {
+    height: 300px; /* Set a fixed height for the chat window */
+    overflow-y: auto; /* Enable vertical scroll if messages overflow the window */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Style for chat messages */
+.chat-message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    overflow-wrap: break-word; /* Allow words to break and wrap within the bubble */
+    word-wrap: break-word;
+    display: block; /* Make bubbles inline blocks for dynamic width */
+}
+
+/* Style for user messages on the right */
+.user-message {
+    background-color: #8ED3F8; /* Light blue background for user messages */
+    color: #000; /* Black text color for user messages */
+    text-align: right;
+}
+
+/* Style for edited text on the left */
+.edited-text {
+    background-color: #98FB98; /* Pale green background for edited text messages */
+    color: #000; /* Black text color for edited text messages */
+}

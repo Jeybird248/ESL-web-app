@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+    <title>ESL Learning Hub</title>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navigation">
+    <div class="container">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('grammar') }}">Grammar Check</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Grammar Checking Page -->
+<section id="grammar-check" class="grammar-check">
+    <div class="chat-container">
+        <div class="chat-window" id="chat-window">
+            <!-- Chat messages dynamically populated here -->
+        </div>
+        <form id="userInputForm" method="post">
+            <div class="user-input-container">
+                <textarea id="userInput" name="userInput" placeholder="Type your text here..."></textarea>
+                <button id="submit" type="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <p class="instructions">Type your text in the chatbox and click "Submit" to receive instant grammar feedback.</p>
+</section>

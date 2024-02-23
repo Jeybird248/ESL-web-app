@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>ESL Learning Hub</title>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navigation">
+    <div class="container">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('grammar') }}">Grammar Check</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- About Page -->
+<section id="about" class="about">
+    <div class="about-content">
+        <h2>About ESL Learning Hub</h2>
+        <div class="about-info">
+            <div class="text-info">
+                <p>My name is Jehyeok Yeon, and I am currently a sophomore at the University of Illinois Urbana-Champaign, studying Computer Science and Linguistics.</p>
+                <p>The ESL Learning Hub is born out of my passion to provide a more interactive and accessible way for ESL students to learn English. In an era where private tutoring can be costly and sometimes less effective than desired, I envisioned a platform that harnesses the power of AI to enhance language learning experiences.</p>
+                <p>Our mission is to empower ESL learners by offering a user-friendly web app that not only checks grammar but also provides real-time feedback, explanations, and examples to make the learning process engaging and effective.</p>
+                <div class="team-info">
+                    <h3>Meet Our Team</h3>
+                    <p>The ESL Learning Hub is a solo project, developed and maintained by Jehyeok Yeon, combining expertise in both computer science and linguistics to create an innovative learning platform for ESL students.</p>
+                </div>
+            </div>
+            <!-- Image of Jehyeok Yeon -->
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/yeonj.jpg') }}" alt="Jehyeok Yeon">
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

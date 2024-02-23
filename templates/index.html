@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>ESL Learning Hub</title>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navigation">
+    <div class="container">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('grammar') }}">Grammar Check</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section (For the Home Page) -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Empowering ESL Learners</h1>
+            <p>Unlock Your Language Potential with ESL Learning Hub</p>
+            <a href="{{ url_for('grammar') }}" class="cta-button">Explore Grammar Checking</a>
+        </div>
+    </div>
+</section>
+
+<!-- Rest of the Front Page Content Goes Here -->
+
+</body>
+</html>
