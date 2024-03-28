@@ -91,10 +91,13 @@ body {
 /* Chat Styles */
 .grammar-check {
     padding-top: 100px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
 }
 .chat-container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .chat-window {
@@ -235,6 +238,7 @@ body {
     overflow-wrap: break-word; /* Allow words to break and wrap within the bubble */
     word-wrap: break-word;
     display: block; /* Make bubbles inline blocks for dynamic width */
+    white-space: pre-wrap;
 }
 
 /* Style for user messages on the right */
@@ -248,4 +252,35 @@ body {
 .edited-text {
     background-color: #98FB98; /* Pale green background for edited text messages */
     color: #000; /* Black text color for edited text messages */
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.number-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dual-windows {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+.article-window, .questions-window {
+    width: calc(50% - 20px); /* Adjust for padding */
+    height: 60vh;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.article-window h2, .questions-window h2 {
+    text-align: center;
 }

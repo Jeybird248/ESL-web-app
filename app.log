@@ -1,0 +1,1424 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:24] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:24] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:24] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:25] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:25] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:50] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 20:56:53] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:12:23] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:12:26] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:18:25] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:18:25] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:18:25] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:18:29] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:18:33] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:19:26] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:19:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:19:26] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:19:31] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:19:35] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:21:36] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: cannot access local variable 'edited_sentences' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:21:42] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:24:45] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:24:45] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:24:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:24:47] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:app:Exception on /submit [POST]
+Traceback (most recent call last):
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'submit' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:24:50] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:36] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:36] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:39] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:42] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:51] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: cannot access local variable 'edited_sentences' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:25:56] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:43] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:43] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:44] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:48] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:52] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: cannot access local variable 'edited_sentences' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:29:57] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:40:20] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:40:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:40:20] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:40:21] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:40:24] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.17.248:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:05] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:05] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:06] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:12] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:50] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:41:55] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:48:53] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Feb/2024 21:49:00] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.20.25:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:23:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:23:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:23:54] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:23:55] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:23:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:23:55] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:24:16] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:24:21] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.20.25:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:27:19] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:27:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:27:19] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:27:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:27:20] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:27:23] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:28:36] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:28:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:28:36] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:28:38] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:28:42] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:28:59] "[33mOPTIONS /submit/clear_variable HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:29:09] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:29:14] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.20.25:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:34:42] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:34:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:34:42] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:34:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:34:44] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: 'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:34:47] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:35:23] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:35:25] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:36:07] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:36:12] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:37:43] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:37:43] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:38:58] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:39:01] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:39:25] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 12:39:30] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:11] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:15] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:15] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:27] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:27] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:16:27] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:25] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:26] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:26] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:27] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:27] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:28] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 14:17:28] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.193.195.113:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:05] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:09] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:09] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:32] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: 'NoneType' object is not subscriptable
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:41:35] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:42:04] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:42:07] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:42:19] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:42:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 13:42:19] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:13] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:13] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:14] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:49:14] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:50:36] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:50:39] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:50:56] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:51:08] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:51:21] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:51:22] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:51:28] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:55:26] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:55:33] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:56:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:56:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:56:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:56:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:20] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:20] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:21] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:24] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:33] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:33] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:42] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 10:59:44] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:00:22] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:00:29] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:16:56] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:16:56] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:17:02] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:17:15] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:17:20] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /grammar [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\tommy\Documents\Github\ESL-web-app\app.py", line 29, in grammar
+    return render_template('grammar.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\tommy\Documents\Github\ESL-web-app\templates\grammar.html", line 29, in top-level template code
+    {% for index, conversation in enumerate(conversations) %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'enumerate' is undefined
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:42:21] "[35m[1mGET /grammar HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /grammar [GET]
+Traceback (most recent call last):
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\tommy\Documents\Github\ESL-web-app\app.py", line 29, in grammar
+    return render_template('grammar.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "c:\Users\tommy\Documents\Github\ESL-web-app\templates\grammar.html", line 29, in top-level template code
+    {% for index, conversation in enumerate(conversations) %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tommy\AppData\Local\Programs\Python\Python311\Lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'enumerate' is undefined
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:42:22] "[35m[1mGET /grammar HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:44:35] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:44:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:44:35] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:53] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:54] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:55] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:55] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:59] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:59] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:45:59] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:22] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:22] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:28] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:29] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:30] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:30] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:30] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:49] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:46:49] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:47:12] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:47:12] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:47:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:04] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:04] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:12] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:12] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:35] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:35] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:35] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:59] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:59] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:48:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:23] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:23] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:24] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:24] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:43] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:43] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:56] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:49:56] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:07] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:07] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:34] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:34] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:51] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:51] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:51:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:52:23] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:52:23] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:52:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:52:56] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:52:57] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:52:57] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:01] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:01] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:01] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:07] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:07] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:07] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:08] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:53:08] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:04] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:04] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:09] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:09] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:36] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 11:54:43] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 12:29:12] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 12:29:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 12:29:12] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:27:35] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:27:35] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:27:35] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:27:52] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: save_conversation() missing 1 required positional argument: 'conversation_number'
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:27:55] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:29:29] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:29:29] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:29:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:29:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:29:31] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: save_conversation() missing 1 required positional argument: 'conversation_number'
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:29:33] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:30:18] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:30:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:30:18] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:30:20] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: save_conversation() missing 1 required positional argument: 'conversation_number'
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:30:24] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:31:27] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:31:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:31:27] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:31:30] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error saving conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:31:33] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:32:22] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:32:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:32:22] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:32:25] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error saving conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:32:29] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:34:01] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:34:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:34:01] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:34:05] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error saving conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:34:08] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:35:05] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:35:05] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:35:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:35:08] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error saving conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:35:12] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:36:39] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:36:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:36:39] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:36:40] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error saving conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:36:43] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:37:05] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:37:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:37:05] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:37:09] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error saving conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:37:13] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:18] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:18] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:19] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:22] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:41:29] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:08] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:08] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:09] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:13] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:14] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:42:14] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:43:04] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:43:04] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:43:04] "[33mGET /conversations/conversation_3.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:43:04] "POST /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:45:18] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:45:18] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:45:27] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:45:31] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:46:34] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:46:34] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:46:34] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:46:35] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: name 'stored_variable' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:46:35] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:09] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:10] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:17] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: name 'stored_variable' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:17] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:26] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:27] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:27] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:27] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:32] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:32] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:48] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:48] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:49] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Error processing user input: name 'stored_variable' is not defined
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:47:49] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:48:06] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:48:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:48:06] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:48:07] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:48:13] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:51:12] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:51:15] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:51:25] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:51:25] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:52:06] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:52:09] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:52:21] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:52:21] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:52:29] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:52:32] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:54:48] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:54:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:54:48] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:54:55] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:54:58] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:55:17] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:55:17] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:55:19] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:55:19] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:55:33] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:55:38] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:56:51] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:56:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:56:52] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:56:53] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:56:58] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:57:08] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:57:08] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:57:11] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:57:11] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:57:26] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:57:30] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:58:55] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:58:55] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:58:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:58:56] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:58:59] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:01] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:01] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:01] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:01] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:44] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:44] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:46] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:49] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:51] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 13:59:51] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:01] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:01] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:41] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:42] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:43] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:47] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:59] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:00:59] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:01:11] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:01:11] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:01:43] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:01:43] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:01:50] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:01:55] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:06:08] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:06:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:06:08] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:06:09] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:06:15] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:24] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:24] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:26] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:29] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:47] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:52] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:57] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:57] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:59] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:07:59] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:08:08] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:08:14] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:09:25] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:09:25] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:09:26] "POST /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:09:26] "[33mGET /conversations/conversation_3.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:09:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:09:42] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:19] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:19] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:19] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:21] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:24] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:26] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:13:26] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:00] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:04] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:05] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:05] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:12] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:12] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:14] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:14] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:14] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:14] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.250.17.208:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:28] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:28] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:29] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:17:29] "POST /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:16] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:16] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:17] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:17] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:18] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:18] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:19] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:19] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:36] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:36] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:38] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:38] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:42] "[33mGET /conversations/conversation_3.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:42] "POST /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:50] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:50] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:51] "[33mGET /conversations/conversation_1.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:51] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:52] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:19:52] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:22:53] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:22:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:22:53] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:22:54] "[33mGET /conversations/conversation_2.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:22:54] "POST /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:23:05] "[33mGET /conversations/conversation_3.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:23:05] "POST /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:23:06] "[33mGET /conversations/conversation_4.json HTTP/1.1[0m" 404 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:23:06] "POST /submit/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:26:59] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:26:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:26:59] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:27:01] "[31m[1mGET /submit/2 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:27:22] "[31m[1mGET /submit/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:27:27] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:27:30] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:27:50] "[31m[1mGET /submit/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:27:58] "[31m[1mGET /submit/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:44] "[33mGET /submit/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:48] "[33mGET /submit/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:48] "[33mGET /submit/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:49] "[33mGET /submit/3 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:51] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:51] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:30:52] "[31m[1mGET /submit?conversationNumber=1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:33:57] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:33:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:33:57] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:33:58] "[31m[1mGET /submit/1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:02] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:02] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:03] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:40] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:40] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:35:41] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:11] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:11] "GET /static/main.js HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:11] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:37] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:42] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:36:46] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:37:13] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 503-559-238
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:37:29] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:40:10] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:40:16] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2024 14:40:22] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.166.45:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:39] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:39] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:40] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:40] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:45] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:35:47] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:36:06] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:36:26] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.166.45:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:20] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:21] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:27] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:30] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:34] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:35] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:37] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:38] "GET /submit/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2024 23:41:38] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\a.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.166.45:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:40] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:40] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:41] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:42] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:42] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:43] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:43] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:01:44] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:02:15] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:02:21] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:04:11] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:04:12] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:05:24] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:05:27] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:09:27] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:10:02] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:10:11] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.166.45:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:11:21] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:11:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:11:21] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:11:25] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:11:28] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:12:08] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:12:13] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.166.45:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:04] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:04] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:13] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:13] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:13] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:14] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:17] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:22] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:23] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:35] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:33:38] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:34:08] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:34:09] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:34:11] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:34:12] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:34:12] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:34:13] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:38:51] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:38:52] "GET /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:38:53] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:40:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:40:17] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 00:40:17] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:23] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:24] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:24] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:25] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:25] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:15:26] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:26] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:27] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:27] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:29] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:29] "[36mGET /static/images/yeonj.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:31] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:31] "[36mGET /static/images/yeonj.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:32] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:32] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:16:49] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:17:14] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:17:14] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:17:14] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:17:54] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:17:54] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:17:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:06] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:06] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:37] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:37] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:43] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:18:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:19:19] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:19:19] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:19:19] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:27] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:27] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:28] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:28] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:29] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:32] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2024 12:21:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:21:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:21:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:21:58] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:47] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:48] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:49] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:22:51] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:25:28] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:25:28] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:25:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:27:27] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Mixtral API error: HTTPSConnectionPool(host='mixtral.k8s-gosha.atlas.illinois.edu', port=443): Max retries exceeded with url: /completion (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000295CAE88410>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:27:27] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:20] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:20] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:21] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:21] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:21] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:22] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:29] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:28:33] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:36:21] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:36:22] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:36:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:41:53] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:41:54] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:41:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:42:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:42:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:42:09] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:43:58] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:43:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:43:58] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:54] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:55] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:55] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:56] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:56] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:57] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:57] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:44:59] "GET /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:00] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:02] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:14] "OPTIONS /submit HTTP/1.1" 200 -
+ERROR:root:Mixtral API error: 403 Client Error: Forbidden for url: https://mixtral.k8s-gosha.atlas.illinois.edu/completion
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:15] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:16] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:17] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:17] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:18] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:45:19] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:54:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:54:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:54:18] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:54:40] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:54:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:54:40] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:13] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:14] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:26] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:26] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:27] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 13:55:27] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:36] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:36] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:41] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:41] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:52] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:55] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:04:59] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:05:00] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:05:01] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:05:01] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:05:03] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:05:23] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:05:39] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:06:23] "OPTIONS /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:06:27] "POST /submit HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:08:58] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:41] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:54] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:55] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:55] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:56] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:56] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:11:58] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:12:01] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:12:46] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:12:47] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:12:48] "GET /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:12:49] "GET /submit/1 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:01] "GET /submit/2 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:02] "GET /submit/3 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:03] "GET /submit/4 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:03] "GET /submit/5 HTTP/1.1" 200 -
+ERROR:root:Error loading conversation: Expecting value: line 1 column 1 (char 0)
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:04] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:04] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:28] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:28] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:30] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:17:30] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:21:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:21:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:21:42] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:21:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:21:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 14:21:43] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:29] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:32] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -

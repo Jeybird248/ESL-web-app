@@ -15,6 +15,7 @@
         <ul>
             <li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="{{ url_for('grammar') }}">Grammar Check</a></li>
+            <li><a href="{{ url_for('article') }}">Reading Comprehension</a></li>
             <li><a href="{{ url_for('about') }}">About</a></li>
         </ul>
     </div>
@@ -22,16 +23,26 @@
 
 <!-- Grammar Checking Page -->
 <section id="grammar-check" class="grammar-check">
-    <div class="chat-container">
-        <div class="chat-window" id="chat-window">
-            <!-- Chat messages dynamically populated here -->
-        </div>
-        <form id="userInputForm" method="post">
-            <div class="user-input-container">
-                <textarea id="userInput" name="userInput" placeholder="Type your text here..."></textarea>
-                <button id="submit" type="button">Submit</button>
-            </div>
-        </form>
+    <div class="button-column">
+        <button class="number-button">1</button>
+        <button class="number-button">2</button>
+        <button class="number-button">3</button>
+        <button class="number-button">4</button>
+        <button class="number-button">5</button>
     </div>
-    <p class="instructions">Type your text in the chatbox and click "Submit" to receive instant grammar feedback.</p>
+    <div>
+        <div class="chat-container">
+            <div class="chat-window" id="chat-window">
+                <!-- Chat messages dynamically populated here -->
+            </div>
+            <form id="userInputForm" method="post">
+                <div class="user-input-container">
+                    <textarea id="userInput" name="userInput" placeholder="Type your text here..."></textarea>
+                    <button id="submit" type="button">Submit</button>
+                    <button id="new" type="button">New</button>
+                </div>
+            </form>
+        </div>
+        <p class="instructions">Type your text in the chatbox and click "Submit" to receive instant grammar feedback.</p>
+    </div>
 </section>

@@ -1,21 +1,17 @@
-from nlprule import Tokenizer, Rules
+from pygooglenews import GoogleNews
+from newspaper import Article
+# default GoogleNews instance
+gn = GoogleNews(lang = 'en', country = 'US')
 
-tokenizer = Tokenizer.load("en")
-rules = Rules.load("en", tokenizer)
+s = gn.top_news()
+url = s['entries'][0].link
+a=Article(url, language='en')
 
-# Example ESL writing errors
-esl_errors = [
-    "I want her to go to the school from the home.",
-    "He don't like to study.",
-    "She is my best of friend.",
-    "I am going to shopping.",
-    "The weather is very nice, isn't it?",
-]
+a.download()
+a.parse()
+print(a.text)
 
-for sentence in esl_errors:
-    suggestions = rules.correct(sentence)
-
-    print(f"Original Sentence: {sentence}")
-    print("Suggestions:")
-    print(rules.correct(sentence))
-    print("\n" + "-"*40 + "\n")
+"""
+Generate 5 questions from the text; answer the question in the text; if
+the question is answered in the context, output 5 questions
+"""

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='article.js') }}" defer></script>
+    <title>ESL Learning Hub</title>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navigation">
+    <div class="container">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('grammar') }}">Grammar Check</a></li>
+            <li><a href="{{ url_for('article') }}">Reading Comprehension</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Dual Windows Layout -->
+<div class="dual-windows">
+    <!-- Article Display Window -->
+    <section id="article-window" class="article-window">
+        <h2>Article Text</h2>
+        <!-- Placeholder for article text -->
+        <div id="article-text">
+            <!-- Article text will be displayed here -->
+        </div>
+    </section>
+
+    <!-- Questions Window -->
+    <section id="questions-window" class="questions-window">
+        <h2>Multiple Choice Questions</h2>
+        <!-- Placeholder for multiple-choice questions -->
+        <div id="multiple-choice-questions">
+            <!-- Questions will be displayed here -->
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
