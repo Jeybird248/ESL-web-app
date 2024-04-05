@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 from fuzzywuzzy import fuzz
 from pygooglenews import GoogleNews
+from newspaper import Article
 import nltk
 import logging
 import requests
@@ -15,12 +16,37 @@ MIXTRAL_PASSWORD = 'jx@U2WS8BGSqwu'
 
 nltk.download('punkt')
 logging.basicConfig(filename='app.log', level=logging.INFO)
-
+gn = GoogleNews(lang='en', country='US')
 app = Flask(__name__)
 CORS(app)
 
 stored_variable = None
 current_conversation = 1
+
+template_json = {
+    "questions": [
+        "Question 1",
+        "Question 2",
+        "Question 3",
+        "Question 4",
+        "Question 5"
+    ],
+    "answer_choices": [
+        ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+        ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+        ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+        ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+        ["Choice 1", "Choice 2", "Choice 3", "Choice 4"]
+    ],
+    "correct_answers": [
+        "Correct Answer 1",
+        "Correct Answer 2",
+        "Correct Answer 3",
+        "Correct Answer 4",
+        "Correct Answer 5"
+    ]
+}
+template_json_str = json.dumps(template_json)
 
 @app.route('/')
 def index():
@@ -33,6 +59,64 @@ def grammar():
 @app.route('/article')
 def article():
     return render_template('article.html')
+
+@app.route('/fetch_article_text', methods=['POST'])
+def fetch_article_text():
+    try:
+        s = gn.top_news()
+        url = s['entries'][0].link
+        article = Article(url, language='en')
+        article.download()
+        article.parse()
+        article_text = article.text
+
+        # Generate questions and answers using MIXTRAL or any other service
+        response = requests.post(
+            MIXTRAL_URL,
+            headers={
+                'Content-Type': 'application/json',
+                'Authorization': f'Basic {base64.b64encode(f"{MIXTRAL_USERNAME}:{MIXTRAL_PASSWORD}".encode()).decode()}'
+            },
+            json={
+                'prompt' : '<s>[INST]Q&A Generation Task: You will receive: 1. A paragraph of English text. The model is expected to output only a JSON file and nothing else in the following format: {} Make sure the property names are wrapped in double quotations. 1. Generate 5 questions from the text; 2. Generate 4 answer options for each question, with one and only one correct answer; 3. The correct answer choice; Format the output as a JSON file where the questions, answer choices, and the correct answers are stored in their respective arrays with the keys questions, answer_choices, and correct answers, respectively. This is the article you need to generate questions from: {}</s>'.format(template_json, article_text),
+                'n_predict': 600,
+            }
+        )
+        
+
+        if response.status_code != 200:
+            raise Exception(f'MIXTRAL API request failed with status code {response.status_code}')
+        
+        # Parse MIXTRAL response and extract questions, answer choices, and correct answers
+        mixtral_data = response.json()
+        print(mixtral_data)
+        mixtral_data = mixtral_data.get('content', "")
+        print("this is the content of the mixtral data before cleaning", mixtral_data)
+        json_start_index = mixtral_data.find('{')
+        json_end_index = mixtral_data.find('}')
+        mixtral_data = mixtral_data[json_start_index:json_end_index + 1]
+        mixtral_data.replace("\\", "")
+        mixtral_data.replace("\'", "\"")
+        print("this is the content of the mixtral data after cleaning", mixtral_data)
+        mixtral_data = json.loads(mixtral_data)
+        print(type(mixtral_data))
+
+        questions = mixtral_data.get('questions', [])
+        answer_choices = mixtral_data.get('answer_choices', [])
+        correct_answers = mixtral_data.get('correct_answers', [])
+
+        # Return article text, questions, answer choices, and correct answers in JSON format
+        return jsonify({
+            'articleText': article_text,
+            'questions': questions,
+            'answerChoices': answer_choices,
+            'correctAnswers': correct_answers
+        })
+
+    except Exception as e:
+        print(e)
+        return jsonify({'error': str(e)}), 500
+
 
 @app.route('/about')
 def about():

@@ -1422,3 +1422,388 @@ INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:29] "[33mGET /favicon.ico HTTP/1
 INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:32] "GET /article HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 15:51:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:50] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:51] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:52] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:52] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:41:53] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:42:03] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:42:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:42:03] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:42:04] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:54:58] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:54:58] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:54:58] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:55:00] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:56:08] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:56:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:56:09] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:56:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:56:27] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:57:09] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:57:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:57:09] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:57:37] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:58:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:58:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:58:43] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:59:11] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.165.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:59:36] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:59:36] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2024 23:59:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:00:04] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:02:01] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:02:01] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:02:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:02:22] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:04:58] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:04:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:04:59] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:05:13] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:10:09] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:10:10] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:10:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:10:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:10:29] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.165.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:11:57] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:11:57] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:11:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:12:09] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:14:26] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:14:26] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:14:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:14:43] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:16:29] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:16:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:16:30] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:16:46] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:17:41] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:17:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:17:41] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:17:58] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:19:57] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:19:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:19:57] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:20:15] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:26:05] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:26:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:26:06] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:26:19] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:27:25] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:27:25] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:27:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:27:44] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.165.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:31:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:31:49] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:31:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:32:07] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:32:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:32:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:32:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:33:07] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:35:32] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:35:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:35:32] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:35:51] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:37:40] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:37:41] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:37:41] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:37:59] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:40:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:40:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:40:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:40:50] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:44:42] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:44:42] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:44:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:44:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:44:55] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.165.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:46:32] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:46:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:46:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:46:45] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:48:39] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:48:39] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:48:39] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:48:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:48:56] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:51:29] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:51:29] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:51:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:51:42] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:56:41] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:56:41] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:56:41] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:57:00] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:59:36] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:59:36] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:59:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 00:59:51] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.165.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:06:07] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:06:08] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:06:08] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:06:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:06:24] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:06:37] "[33mPOST /compare_answers HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:12:06] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:12:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:12:06] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:12:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 01:12:19] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.82:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:54:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:54:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:54:56] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:54:58] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:54:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:54:58] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:55:05] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:55:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:55:05] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:55:19] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:57:29] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:57:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 13:57:29] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:04:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:12:20] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:12:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:12:20] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:12:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:14:59] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:14:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:14:59] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 14:15:09] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-529-366
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:43] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:44] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:44] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:45] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:45] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2024 17:43:46] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -

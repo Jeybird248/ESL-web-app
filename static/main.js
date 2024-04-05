@@ -1,5 +1,5 @@
 // Constants
-const SERVER_URL = 'http://localhost:5000/submit';
+const SERVER_URL = '/submit';
 
 // Function to handle errors
 const handleError = error => {

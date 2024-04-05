@@ -284,3 +284,39 @@ body {
 .article-window h2, .questions-window h2 {
     text-align: center;
 }
+
+/* CSS for question container */
+.question {
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for question text */
+  .question p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for answer choices container */
+  .answer-choices {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* CSS for answer choice labels */
+  .answer-choices label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /* CSS for answer choice inputs */
+  .answer-choices input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* CSS to make the "article-text" and "multiple-choice-questions" divs scrollable */
+  #article-text,
+  #multiple-choice-questions {
+    max-height: 380px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
