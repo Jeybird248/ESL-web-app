@@ -27,18 +27,42 @@ function createQuestionElements(question, answerChoices, questionIndex) {
         choiceInput.type = 'radio';
         choiceInput.name = `answer-${questionIndex}`;
         choiceInput.id = `choice-${questionIndex}-${index}`;
+        choiceInput.setAttribute('required', true);
 
-        answerChoicesDiv.appendChild(choiceInput);
-        answerChoicesDiv.appendChild(choiceLabel);
+        const choiceContainer = document.createElement('div');
+        choiceContainer.classList.add('answer-choice-container');
+        choiceContainer.appendChild(choiceInput);
+        choiceContainer.appendChild(choiceLabel);
+
+        answerChoicesDiv.appendChild(choiceContainer);
     });
 
     questionDiv.appendChild(answerChoicesDiv);
 
     return questionDiv;
 }
+function createShortAnswerQuestionElement(question, questionIndex) {
+    const questionDiv = document.createElement('div');
+    questionDiv.classList.add('SA-question');
+
+    const questionText = document.createElement('p');
+    questionText.textContent = question;
+    questionDiv.appendChild(questionText);
+
+    const answerInput = document.createElement('input');
+    answerInput.type = 'text';
+    answerInput.name = `short-answer-${questionIndex}`;
+    answerInput.id = `short-answer-${questionIndex}`;
+    answerInput.placeholder = 'Your answer...';
+
+    questionDiv.appendChild(answerInput);
+
+    return questionDiv;
+}
 
 // Function to fetch and display article text, questions, and answers
 async function fetchAndDisplayArticleText() {
+    showLoadingAnimation();
     try {
         console.log('Fetching article text and questions...');
 
@@ -52,8 +76,10 @@ async function fetchAndDisplayArticleText() {
         }
 
         const responseData = await response.json();
+        console.log(responseData);
         const articleText = responseData.articleText;
         const questions = responseData.questions;
+        const shortAnswers = responseData.shortAnswer;
         const answerChoices = responseData.answerChoices;
         correctAnswers = responseData.correctAnswers;
 
@@ -64,8 +90,16 @@ async function fetchAndDisplayArticleText() {
 
         // Display the fetched article text on the HTML page
         const articleTextElement = document.getElementById('article-text');
-        articleTextElement.textContent = articleText;
 
+        // Create a <pre> element
+        const preElement = document.createElement('pre');
+
+        // Set the text content of the <pre> element to the fetched article text
+        preElement.textContent = articleText;
+        preElement.style.whiteSpace = 'pre-wrap';
+
+        // Append the <pre> element to the articleTextElement
+        articleTextElement.appendChild(preElement);
         console.log('Article text displayed on page:', articleText);
 
         // Create HTML elements for each question and answer choices and append them to the HTML page
@@ -73,9 +107,16 @@ async function fetchAndDisplayArticleText() {
         questions.forEach((question, index) => {
             const questionElement = createQuestionElements(question, answerChoices[index], index);
             questionsContainer.appendChild(questionElement);
+            console.log("question added mc")
+        });
+        shortAnswers.forEach((question, index) => {
+            const shortAnswerQuestionElement = createShortAnswerQuestionElement(question, index);
+            questionsContainer.appendChild(shortAnswerQuestionElement);
+            console.log("question added frq")
         });
 
         console.log('Questions displayed on page');
+        hideLoadingAnimation();
 
     } catch (error) {
         handleError(error);
@@ -105,7 +146,7 @@ document.getElementById('questions-form').addEventListener('submit', async (even
         console.log('Selected answers:', selectedAnswers);
 
         console.log('Correct answers:', correctAnswers);
-
+        const incorrectAnswersInfo = [];
         // Compare selected answers with correct answers and style them accordingly
         questions.forEach((question, index) => {
             const selectedInput = question.querySelector(`input[name="answer-${index}"]:checked`);
@@ -116,8 +157,44 @@ document.getElementById('questions-form').addEventListener('submit', async (even
                     selectedInput.nextElementSibling.style.color = 'green';
                     selectedInput.nextElementSibling.style.fontWeight = 'bold';
                 }
+                incorrectAnswersInfo.push({
+                    question: question.querySelector('p').textContent,
+                    correctAnswer: correctAnswer
+                });
             }
         });
+        const response = await fetch('/incorrect_answers', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ 
+                questions: incorrectAnswersInfo.map(({ question }) => question),
+                correctAnswers: incorrectAnswersInfo.map(({ correctAnswer }) => correctAnswer)
+            })
+        })
+        if (!response.ok) {
+            throw new Error(`Fetch error: ${response.status} - ${response.statusText}`);
+        }
+
+        const responseData = await response.json();
+        const answerExplanations = responseData.answer_explanations;
+        // Find existing question elements and append answer text under each radio button
+        const questionDivs = document.querySelectorAll('.question');
+        questionDivs.forEach((questionDiv, questionIndex) => {
+            const answerChoicesDiv = questionDiv.querySelector('.answer-choices');
+            const choiceContainers = answerChoicesDiv.querySelectorAll('.answer-choice-container');
+
+            // Find the last radio button container
+            const lastChoiceContainer = choiceContainers[choiceContainers.length - 1];
+
+            // Append answer explanation after the last radio button container
+            const answerExplanation = document.createElement('p');
+            answerExplanation.textContent = answerExplanations[questionIndex];
+            console.log(answerExplanations[questionIndex]);
+            lastChoiceContainer.parentNode.insertBefore(answerExplanation, lastChoiceContainer.nextSibling);
+        });
+
 
         console.log('Answers submitted and styled.');
 
@@ -125,3 +202,15 @@ document.getElementById('questions-form').addEventListener('submit', async (even
         handleError(error);
     }
 });
+
+function showLoadingAnimation() {
+    // Show the loading screen or animation here
+    const loadingScreen = document.querySelector('.loading-screen');
+    loadingScreen.style.display = 'flex'; // Display the loading screen
+}
+
+function hideLoadingAnimation() {
+    // Hide the loading screen or animation here
+    const loadingScreen = document.querySelector('.loading-screen');
+    loadingScreen.style.display = 'none'; // Hide the loading screen
+}

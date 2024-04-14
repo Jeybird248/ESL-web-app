@@ -22,7 +22,7 @@ CORS(app)
 
 stored_variable = None
 current_conversation = 1
-
+article_text = None
 template_json = {
     "questions": [
         "Question 1",
@@ -30,6 +30,11 @@ template_json = {
         "Question 3",
         "Question 4",
         "Question 5"
+    ],
+    "short_answer_questions": [
+        "Question 1",
+        "Question 2",
+        "Question 3"
     ],
     "answer_choices": [
         ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
@@ -47,6 +52,23 @@ template_json = {
     ]
 }
 template_json_str = json.dumps(template_json)
+answer_template_json = {
+    "questions": [
+        "Question 1",
+        "Question 2",
+        "Question 3",
+        "Question 4",
+        "Question 5"
+    ],
+    "answer_explanations": [
+        "Explanation for Answer 1",
+        "Explanation for  Answer 2",
+        "Explanation for  Answer 3",
+        "Explanation for  Answer 4",
+        "Explanation for  Answer 5"
+    ]
+}
+answer_template_json_str = json.dumps(answer_template_json)
 
 @app.route('/')
 def index():
@@ -62,6 +84,7 @@ def article():
 
 @app.route('/fetch_article_text', methods=['POST'])
 def fetch_article_text():
+    global article_text
     try:
         s = gn.top_news()
         url = s['entries'][0].link
@@ -78,8 +101,9 @@ def fetch_article_text():
                 'Authorization': f'Basic {base64.b64encode(f"{MIXTRAL_USERNAME}:{MIXTRAL_PASSWORD}".encode()).decode()}'
             },
             json={
-                'prompt' : '<s>[INST]Q&A Generation Task: You will receive: 1. A paragraph of English text. The model is expected to output only a JSON file and nothing else in the following format: {} Make sure the property names are wrapped in double quotations. 1. Generate 5 questions from the text; 2. Generate 4 answer options for each question, with one and only one correct answer; 3. The correct answer choice; Format the output as a JSON file where the questions, answer choices, and the correct answers are stored in their respective arrays with the keys questions, answer_choices, and correct answers, respectively. This is the article you need to generate questions from: {}</s>'.format(template_json, article_text),
-                'n_predict': 600,
+                'prompt' : '<s>[INST]Q&A Generation Task: You will receive: 1. A paragraph of English text. The model is expected to output only a JSON file and nothing else in the following format: {} Make sure the property names are wrapped in double quotations. 1. Generate 5 multiple choice questions and 3 short answer questions from the text; 2. Generate 4 answer options for each multiple choice question, with one and only one correct answer; 3. The correct answer choice for each multiplce choice question; Format the output as a JSON file where the questions, answer choices, and the correct answers are stored in their respective arrays with the keys multiple choice questions, short answer questions, answer_choices, and correct answers, respectively. Encapsulate the json property names with double quotes. This is the article you need to generate questions from: {}</s>'.format(template_json, article_text),
+                'n_predict': 1000,
+                'temp':0.8
             }
         )
         
@@ -89,26 +113,29 @@ def fetch_article_text():
         
         # Parse MIXTRAL response and extract questions, answer choices, and correct answers
         mixtral_data = response.json()
-        print(mixtral_data)
         mixtral_data = mixtral_data.get('content', "")
-        print("this is the content of the mixtral data before cleaning", mixtral_data)
+        print("before cleaning:",  mixtral_data)
+        print()
         json_start_index = mixtral_data.find('{')
         json_end_index = mixtral_data.find('}')
         mixtral_data = mixtral_data[json_start_index:json_end_index + 1]
         mixtral_data.replace("\\", "")
         mixtral_data.replace("\'", "\"")
-        print("this is the content of the mixtral data after cleaning", mixtral_data)
         mixtral_data = json.loads(mixtral_data)
-        print(type(mixtral_data))
+        print("after cleaning:",  mixtral_data)
+        print()
 
         questions = mixtral_data.get('questions', [])
         answer_choices = mixtral_data.get('answer_choices', [])
+        short_answers = mixtral_data.get('short_answer_questions', [])
         correct_answers = mixtral_data.get('correct_answers', [])
+        print(questions, answer_choices, short_answers, correct_answers)
 
         # Return article text, questions, answer choices, and correct answers in JSON format
         return jsonify({
             'articleText': article_text,
             'questions': questions,
+            'shortAnswer': short_answers,
             'answerChoices': answer_choices,
             'correctAnswers': correct_answers
         })
@@ -117,10 +144,52 @@ def fetch_article_text():
         print(e)
         return jsonify({'error': str(e)}), 500
 
+@app.route('/incorrect_answers', methods=["POST"])
+def query_incorrect():
+    global article_text
+    data = request.json
+    questions = data.get('questions', [])
+    correct_answers = data.get('correctAnswers', [])
+    print(questions, correct_answers)
+    response = requests.post(
+        MIXTRAL_URL,
+        headers={
+            'Content-Type': 'application/json',
+            'Authorization': f'Basic {base64.b64encode(f"{MIXTRAL_USERNAME}:{MIXTRAL_PASSWORD}".encode()).decode()}'
+        },
+        json={
+            'prompt' : '<s>[INST]Q&A Explanation Task: You will receive: 1. A paragraph of English text. 2. A set of questions. 3. A set of correct answers. The model is expected to output only a JSON file and nothing else in the following format: {} Make sure the property names are wrapped in double quotations. 1. Generate explanations for why each answer to the multiple choice questions is correct; Format the output as a JSON file where the explanations are stored in their respective arrays with the keys respectively. This is the article you need to generate explanations from: {}. These are the questions about the text: {}, and these are the answers to those questions: {}</s>'.format(answer_template_json, article_text, questions, correct_answers),
+            'n_predict': 600,
+        }
+    )
+    if response.status_code != 200:
+        raise Exception(f'MIXTRAL API request failed with status code {response.status_code}')
+    
+    mixtral_data = response.json()['content']
+    print("before", mixtral_data)
+    json_start_index = mixtral_data.find('{')
+    json_end_index = mixtral_data.find('}')
+    mixtral_data = mixtral_data[json_start_index:json_end_index + 1]
+    mixtral_data.replace("\\", "")
+    mixtral_data.replace("\'", "\"")
+    print("after", mixtral_data)
+    mixtral_data = json.loads(mixtral_data).get('answer_explanations', [])
+    print("explanations", mixtral_data)
+    return jsonify({
+        'answer_explanations': mixtral_data
+    })
 
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/conversation/count', methods=['GET'])
+def get_conversation_count():
+    file_path = 'conversations/conversations.json'
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            return jsonify({"conversation_count": len(data)})
 
 @app.route('/submit/<int:conversation_number>', methods=['GET','POST'])
 @app.route('/submit', methods=['POST'])
@@ -129,11 +198,11 @@ def submit(conversation_number = None):
     global current_conversation
 
     edited_sentences = []
-
     if conversation_number:
         current_conversation = conversation_number
-        response = load_conversations(current_conversation)
-        return jsonify(response)
+        response = load_conversation(current_conversation)
+        conversation = response.get("messages")[-1]["stored_conversation"] if response.get("messages") else []
+        return jsonify(conversation)
     try:
         data = request.get_json()
         user_input = data.get('userInput', '')
@@ -234,40 +303,64 @@ def process_mixtral_response(user_input, mixtral_response):
 
 def save_conversation(user_input, edited_sentences, conversation_number):
     global stored_variable
-    tempData = []
     try:
-        # Load existing conversations from file
-        file_path = f'conversations/conversations_{conversation_number}.json'
+        edited_sentences = '\n'.join(edited_sentences)
+        file_path = 'conversations/conversations.json'
+        conversation_data = {'user_input': user_input, 'edited_sentences': edited_sentences, 'stored_conversation': []}
+
+        # Load existing conversations or create a new array if the file doesn't exist
         if os.path.exists(file_path):
-            try:
-                with open(file_path, 'r') as file:
-                    tempData = json.load(file)
-            except json.decoder.JSONDecodeError:
-                # Handle empty JSON file
-                tempData = []
+            with open(file_path, 'r') as file:
+                existing_conversations = json.load(file)
+        else:
+            existing_conversations = []
+        # Find the conversation with the specified number or create a new one if not found
+        conversation = next((conv for conv in existing_conversations if conv.get('conversation_number') == conversation_number), None)
+        if conversation is None:
+            conversation = {'conversation_number': conversation_number, 'messages': []}
+
+        # Append new message to the conversation
+        stored_converesation = conversation.get("messages")[-1]["stored_conversation"] if conversation.get("messages") else []
+        stored_converesation.append(user_input)
+        stored_converesation.append(edited_sentences)
+        conversation['messages'].append({'user_input': user_input, 'edited_sentences': edited_sentences, 'stored_conversation': stored_converesation})
         
-        tempData.append({'user_input': user_input, 'edited_sentences': edited_sentences, 'stored_conversation':stored_variable})
+        # Append the updated conversation to the list of conversations
+        if conversation_number in [conv.get('conversation_number') for conv in existing_conversations]:
+            existing_conversations = [conv for conv in existing_conversations if conv.get('conversation_number') != conversation_number]
+        existing_conversations.append(conversation)
+
         # Save the updated conversations to file
         with open(file_path, 'w') as file:
-            json.dump(tempData, file)
+            json.dump(existing_conversations, file)
 
     except Exception as e:
         logging.error(f"Error saving conversation: {e}")
 
-def load_conversations(conversation_number):
+def load_conversation(conversation_number):
     global stored_variable
-
     try:
-        file_path = f'conversations/conversations_{conversation_number}.json'
+        file_path = 'conversations/conversations.json'
         if os.path.exists(file_path):
             with open(file_path, 'r') as file:
                 data = json.load(file)
-                if data:
-                    stored_variable = data[-1]['stored_conversation']
-                    return data
+                for conversation in data:
+                    if conversation.get('conversation_number') == conversation_number:
+                        messages = conversation.get('messages')
+                        stored_variable = messages[-1]['stored_conversation'] if messages else []
+                        return conversation
+            with open(file_path, 'w') as file:
+                data.append({"conversation_number": conversation_number, "messages": []})
+                json.dump(data, file)
+                for conversation in data:
+                    if conversation.get('conversation_number') == conversation_number:
+                        messages = conversation.get('messages')
+                        stored_variable = messages[-1]['stored_conversation'] if messages else []
+                        return conversation
+
     except Exception as e:
-        logging.error(f"Error loading conversation: {e}")
-    return []
+        logging.error(f"Error loading conversation {conversation_number}: {e}")
+    return {}
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
