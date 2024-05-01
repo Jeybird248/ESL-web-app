@@ -1,956 +1,1348 @@
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:00:10] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:00:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:00:10] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:00:21] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:01:46] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:13] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:13] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:13] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:17] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:51] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:04:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:05:02] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:12:29] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:12:30] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:12:30] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:12:41] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:03] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:03] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:07] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:50] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:14:50] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:15:01] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:08] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:08] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:08] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:13] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:25] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:25] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:16:36] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:18:42] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:18:42] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:18:42] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:18:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:19:00] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:19:29] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:19:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:19:29] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:19:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:19:44] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:24] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:24] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:25] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:25] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:25] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:27] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:27] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:43] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:43] "[36mGET /static/images/yeonj.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:44] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:44] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:44] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 01:20:44] "[36mGET /static/images/yeonj.jpg HTTP/1.1[0m" 304 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.135.233:5000
+ * Running on http://10.251.171.52:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:18] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:19] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:21] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:21] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 13:59:21] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:00:35] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:00:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:00:36] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:02:19] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:02:19] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:02:19] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:02:32] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:27] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:27] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:27] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:27] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:32] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:32] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:03:45] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:14:34] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:14:34] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:14:34] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:14:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:14:53] "POST /submit HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:15:05] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:15:06] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:16:57] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:16:57] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:16:57] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:16:57] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:17:02] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:17:03] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:17:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:17:03] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:17:16] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:21:30] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:21:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:21:30] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:21:30] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:22:12] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:22:14] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:00] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:00] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:00] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:12] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:16] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:16] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:17] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:22] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:23:41] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:24:12] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:26:18] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:00] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:00] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:07] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:34] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:34] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:41] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:53] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:28:53] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [05/Apr/2024 14:29:00] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:19:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:19:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:19:54] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:19:59] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:19:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:19:59] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:21:18] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:21:18] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:21:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:22:47] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:22:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:22:47] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:25:39] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:25:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:25:40] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:25:40] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:25:40] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:27:22] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:27:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:27:22] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:27:23] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:27:23] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:27] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:29] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:29] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:31] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:31] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:28:31] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:29:52] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:29:53] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:29:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:21] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:22] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:27] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:27] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:28] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:29] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:29] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:29] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:33] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:33] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:42] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:42] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:43] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:44] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:44] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:45] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:45] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:45] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:46] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:47] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:47] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:52] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:52] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:52] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:52] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:53] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:54] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:30:54] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.168.238:5000
+ * Running on http://10.251.171.52:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:16] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:16] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:16] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:18] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:18] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:18] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:23] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:28] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:29] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:26:30] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:48] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:48] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:48] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:48] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:49] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:49] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:49] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:50] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:52] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:53] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:27:55] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:52] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:52] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:52] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:52] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:54] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:56] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:57] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:29:58] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:44] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:44] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:44] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:45] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:46] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:47] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:30:49] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:01] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:02] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:02] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:02] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:03] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:03] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:04] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:04] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:31:04] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:33] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:33] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:33] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:33] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:35] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:36] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:37] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:37] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:43] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:43] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:43] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:43] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:44] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:45] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:45] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:46] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:46] "GET /submit/6 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:47] "GET /submit/7 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:47] "GET /submit/8 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:34:47] "GET /submit/9 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:03] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:03] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:03] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:03] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:04] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:05] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:05] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:06] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:06] "GET /submit/6 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:07] "GET /submit/7 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:10] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:10] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:10] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:12] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:13] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:14] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:15] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:16] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:18] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:18] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 10:35:18] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:00:11] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:00:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:00:11] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:00:11] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:02:33] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:02:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:02:33] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:02:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:02:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:03:38] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:03:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:03:39] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:03:39] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:03:41] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:05] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:05] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:05] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:06] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:07] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:07] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:08] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:08] "GET /submit/6 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:09] "GET /submit/7 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:09] "GET /submit/8 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:42] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:42] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:42] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:42] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:45] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:46] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:46] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:47] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:51] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:51] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:52] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:52] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:53] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:06:54] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:02] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:02] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:02] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:02] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:14] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:14] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:14] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:14] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:21] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:21] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:21] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:21] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:30] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:30] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:30] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:30] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:38] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:38] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:38] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:38] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:50] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:50] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:50] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:50] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:57] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:57] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:57] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:07:57] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:10] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:10] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:10] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:11] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:34] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:34] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:34] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:42] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:43] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:43] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:43] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:50] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:50] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:50] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:08:51] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:09:29] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:09:29] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:09:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:09:45] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:12:59] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:12:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:12:59] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:12:59] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:11] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:11] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:12] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:12] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:13] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:13] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:13] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:13] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:13:42] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:19] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:19] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:19] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:19] "[33mGET /conversations.json HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:22] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:53] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:53] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:16:53] "[33mGET /conversations/conversations.json HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:32:26] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:32:26] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:32:26] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:32:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:33:11] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:33:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:33:11] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:33:12] "[33mGET /conversations/conversations.json HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:07] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:07] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:30] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:30] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:31:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:32:22] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:32:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:32:22] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.171.52:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:45:23] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:45:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:45:23] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:45:23] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:50:19] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:50:20] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:50:20] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:50:54] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:02] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:02] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:10] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:51:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:53:44] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:53:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:53:44] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:55:05] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:55:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 20:55:05] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:18:59] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:18:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:18:59] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:48] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:48] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:48] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:48] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:49] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:50] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:50] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:50] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:50] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2024 21:19:51] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.170.190:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:34] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:35] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:35] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:54] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:54] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:54:55] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:03] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:03] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:54] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:54] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:55] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:55] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:56] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:56:56] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:57:23] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:57:23] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 10:57:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.134.203:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:16:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:16:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:16:22] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:16:23] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:16:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:16:23] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:45] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:45] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:46] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:46] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:47] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:47] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:48] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:48] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:48] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:58] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2024 23:19:58] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.135.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:20:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:20:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:20:50] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:20:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:20:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:20:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:23:24] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:23:24] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:23:24] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.135.58:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:03] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:05] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:05] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:05] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:22] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:23] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:23] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.168.238:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:41:45] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:41:45] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:41:45] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:41:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:41:45] "[35m[1mGET /conversation/count HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:49] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:40:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:41:02] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:06] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:06] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:06] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:06] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:34] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:34] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:34] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:43:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:50] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:50] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:50] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:50] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:50] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:52] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:54] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:56] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:56] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:57] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [09/Apr/2024 11:44:57] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:28:58] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:28:58] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:28:58] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:28:59] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:28:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:28:59] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:00] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:00] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:02] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:02] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:03] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:16] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:16] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:16] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:17] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:29] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:29] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:29:29] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:31:51] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:31:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:31:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:31:51] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:32:23] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:32:23] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:32:24] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:06] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:06] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:06] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:07] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:51] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:33:52] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:36] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:36] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:36] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:36] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:37] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:38] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:58] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:58] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:58] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:34:59] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:07] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:07] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:07] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:08] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:33] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:33] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:33] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:38:34] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:40:00] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:40:00] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:40:00] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:40:01] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:48] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:48] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:48] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:49] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:51] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:52] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:52] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:52] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:41:52] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:14] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:14] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:14] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:14] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:14] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:16] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:16] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:17] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:17] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:18] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:19] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:19] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:19] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:19] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:42:20] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:28] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:31] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:31] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:31] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:32] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:32] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:32] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:32] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:33] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:33] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:33] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:49] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:49] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:49] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:49] "GET /submit/1 HTTP/1.1" 200 -
-ERROR:root:Mixtral API error: 404 Client Error: Not Found for url: https://mixtral.k8s-gosha.atlas.illinois.edu/completion
-ERROR:root:Error saving conversation: sequence item 0: expected str instance, list found
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 11:59:54] "POST /submit HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:00] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:01] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:01] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:01] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:01] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:04] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:04] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:04] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:00:04] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:42:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:42:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:42:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 15:42:53] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:03:24] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:03:24] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:03:24] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:06:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:06:37] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:06:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:08:06] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:08:07] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:08:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:08:09] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:09:08] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:09:08] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:09:08] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:09:10] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:21] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:21] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:23] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:38] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:38] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:41] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:54] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:54] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:12:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:13:28] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:14:39] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:14:40] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:14:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:15:14] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:53] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:53] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:53] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:54] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:54] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:54] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:44:55] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:45:06] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:27:26] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:27:26] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:27:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:27:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:27:50] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:29:25] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:29:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:29:25] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:29:25] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:31:02] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:31:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:31:02] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:31:02] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:33:01] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:33:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:33:01] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:33:01] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:33:28] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 16:35:14] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:47:50] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:47:50] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:47:50] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:48:06] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:48:54] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:48:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:48:54] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:49:07] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:53:22] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:53:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:53:22] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:53:37] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:54:46] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:54:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:54:46] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:55:02] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:07] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:07] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:22] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:27] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:27] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:56:40] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:09:55] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:09:55] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:09:55] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:09:59] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:10:13] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:10:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:10:13] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:10:27] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:57:19] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:57:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:57:19] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:57:34] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:24:59] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:24:59] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:24:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:25:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:25:14] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:25:54] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:27:47] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:28:03] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:28:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:28:04] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:28:14] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:28:46] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:58:59] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:58:59] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:58:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 12:59:11] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:00:18] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:00:27] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:00:34] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:01:09] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:34:29] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:34:30] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:34:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:34:39] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:54:42] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:54:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:54:42] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:54:54] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.135.58:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:11:16] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:11:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:11:16] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:11:27] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:13:40] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:13:40] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:13:40] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:13:57] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:07] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:07] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:23] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:27] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:27] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:43] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:49] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:14:49] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:03] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:03] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:05] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:10] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:10] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:18] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:15:34] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:16:32] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:16:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:16:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:16:49] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:17:25] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:17:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:17:25] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:17:41] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:57:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:57:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:57:49] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:58:00] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:58:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:58:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:58:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:58:49] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 17:59:16] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:02:57] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:02:57] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:02:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:03:13] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:04:15] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:19:44] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:19:44] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:19:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:20:06] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:20:40] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:21:37] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:21:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:21:37] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:21:49] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:22:12] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:22:30] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:25:12] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:25:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:25:12] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:25:29] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:25:57] "POST /incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:04:42] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:04:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:04:42] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:04:59] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2024 18:06:35] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:06] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:07] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:07] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:14:26] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:15:04] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:33:56] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:33:56] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:33:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:34:09] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:36:01] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:54:29] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:54:30] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:54:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:54:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 12:54:41] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:11:47] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:11:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:11:48] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:11:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:12:02] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:27:48] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:27:48] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:27:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:28:02] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:28:27] "POST /incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:28:51] "POST /incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:12:52] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:12:52] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:12:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:13:14] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:15:32] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:15:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:15:32] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:15:56] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:16:46] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:30:26] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:30:26] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:30:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:30:42] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:31:11] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:33:05] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:33:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:33:05] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:33:19] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:33:51] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:36:57] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:36:57] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:36:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:37:07] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:37:34] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:37:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:37:34] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:37:42] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:37:57] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:33] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:33] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:33] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:35] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:43] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:46] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:47:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:48:05] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.133.94:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:45:01] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:45:01] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:45:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:45:10] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:46:54] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:48:27] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:51:50] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:51:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:51:50] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:00] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:06] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:11] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:11] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:12] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:12] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:13] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:13] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:14] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:14] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:14] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:14] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:16] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:16] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:17] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:17] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:17] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:17] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:18] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:18] "[36mGET /static/images/yeonj.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:19] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:19] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:20] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:20] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:20] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:20] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:21] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:21] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:22] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:22] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:22] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:22] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:27] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:31] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:31] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:31] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:34] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:34] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:34] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:52:44] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:54:29] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:54:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 13:54:29] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:03:30] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:03:30] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:03:30] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:03:47] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:04:36] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:09:06] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:09:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:09:06] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:09:16] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:09:54] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:10:00] "POST /incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:21:12] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:21:12] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:21:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:21:29] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:24:35] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:24:35] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:24:35] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:24:48] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.133.94:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:29:34] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:29:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:29:34] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:29:34] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:29:34] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:29:51] "POST /submit HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:30:04] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:30:06] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:30:07] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:30:07] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:30:08] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:30:42] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:27:40] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:27:40] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:27:40] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:27:54] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.170.154:5000
+ * Running on http://10.251.133.94:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 507-120-614
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:15] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:15] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:17] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:17] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Apr/2024 14:59:31] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:01] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:02] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:13] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:44] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:40:16] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
- * Running on http://10.251.171.29:5000
+ * Running on http://10.251.133.94:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 503-559-238
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:22] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:22] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:22] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:45] "GET /about HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:45] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:49] "GET /grammar HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:49] "GET /static/main.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:50] "GET /conversation/count HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:50] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:21:52] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:22:20] "POST /submit HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:22:52] "POST /submit HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:08] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:08] "GET /submit/2 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:09] "GET /submit/3 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:09] "GET /submit/4 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:10] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:10] "GET /submit/5 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:11] "GET /submit/6 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:12] "GET /submit/7 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:14] "GET /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:18] "GET /article HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:18] "GET /static/styles.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:18] "GET /static/article.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:23:27] "POST /fetch_article_text HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:24:03] "[35m[1mPOST /incorrect_answers HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:24:32] "POST /incorrect_answers HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:25:34] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:25:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [13/Apr/2024 21:25:34] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:42:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:42:38] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:42:38] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:42:47] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:43:09] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:44:12] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:44:12] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:44:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:44:36] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:13:05] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:13:05] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:13:05] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:13:18] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:16:04] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:16:04] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:16:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:16:15] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:19:26] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:19:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:19:27] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:19:39] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:02] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:03] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:04] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:08] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:08] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:21:30] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:22] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:22] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:27] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:31] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:31] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:22:49] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:23:13] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:23:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:23:49] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:23:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:24:11] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:24:40] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:24:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:24:40] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:24:42] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:25:40] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:25:40] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:25:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:25:49] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:27:12] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:27:12] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:27:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:27:29] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:28:19] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:28:19] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:28:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:28:40] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:29:33] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:29:33] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:29:33] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:29:43] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:30:08] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:31:06] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:34:49] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:34:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:34:49] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:35:02] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:35:25] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:36:57] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:36:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:36:57] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:37:14] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:37:38] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:39:05] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:41:28] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:41:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:41:28] "GET /static/article.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:41:28] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:03] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:03] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:03] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:12] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:12] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:12] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:43] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:43] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:53] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:53] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:42:54] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:43:10] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:43:10] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:43:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:43:10] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:30] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:30] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:30] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:48] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:48] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:48] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:57] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:57] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:57] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:44:57] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:35] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:35] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:35] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:36] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:52] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:52] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:52] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:45:52] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:46:10] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:46:10] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:46:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:46:11] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:00] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:00] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:01] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:01] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:09] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:09] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:10] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:19] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:19] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:19] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:19] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:29] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:29] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:29] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:38] "POST /fetch_article_text/reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:43] "POST /fetch_article_text/reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:59] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:47:59] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:00] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:01] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:01] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 15:48:01] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:38] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:38] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:38] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:38] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:38] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:40] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:40] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:40] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:40] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:41] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:41] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:41] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:41] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:44] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:44] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:02:51] "[35m[1mPOST /fetch_article_text HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:03:58] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:03:58] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:03:58] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:04:09] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:04:10] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:04:10] "GET /static/styles.css HTTP/1.1" 200 -
+ERROR:root:Error fetching article: Article `download()` failed with 429 Client Error: Unknown Error for url: https://thehill.com/homenews/media/4604718-cnn-analyst-warns-civil-unrest-trump-gag-order-violation/ on URL https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vdGhlaGlsbC5jb20vaG9tZW5ld3MvbWVkaWEvNDYwNDcxOC1jbm4tYW5hbHlzdC13YXJucy1jaXZpbC11bnJlc3QtdHJ1bXAtZ2FnLW9yZGVyLXZpb2xhdGlvbi_SAWhodHRwczovL3RoZWhpbGwuY29tL2hvbWVuZXdzL21lZGlhLzQ2MDQ3MTgtY25uLWFuYWx5c3Qtd2FybnMtY2l2aWwtdW5yZXN0LXRydW1wLWdhZy1vcmRlci12aW9sYXRpb24vYW1wLw?oc=5
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:04:21] "POST /fetch_article_text HTTP/1.1" 200 -
+ERROR:root:Error fetching article: Expecting ',' delimiter: line 1 column 301 (char 300)
+ERROR:root:Error fetching article: Expecting ',' delimiter: line 1 column 447 (char 446)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:04:53] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:16:05] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:16:05] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:16:05] "GET /static/styles.css HTTP/1.1" 200 -
+ERROR:root:Error fetching article: Expecting ',' delimiter: line 1 column 136 (char 135)
+ERROR:root:Error fetching article: Expecting ',' delimiter: line 1 column 116 (char 115)
+ERROR:root:Error fetching article: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+ERROR:root:Error fetching article: Article `download()` failed with 429 Client Error: Unknown Error for url: https://thehill.com/homenews/media/4604718-cnn-analyst-warns-civil-unrest-trump-gag-order-violation/ on URL https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vdGhlaGlsbC5jb20vaG9tZW5ld3MvbWVkaWEvNDYwNDcxOC1jbm4tYW5hbHlzdC13YXJucy1jaXZpbC11bnJlc3QtdHJ1bXAtZ2FnLW9yZGVyLXZpb2xhdGlvbi_SAWhodHRwczovL3RoZWhpbGwuY29tL2hvbWVuZXdzL21lZGlhLzQ2MDQ3MTgtY25uLWFuYWx5c3Qtd2FybnMtY2l2aWwtdW5yZXN0LXRydW1wLWdhZy1vcmRlci12aW9sYXRpb24vYW1wLw?oc=5
+ERROR:root:Error fetching article: Expecting ',' delimiter: line 1 column 273 (char 272)
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:16:58] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:20:51] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:20:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:20:51] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:21:10] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:21:10] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:21:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+ERROR:root:Error fetching article: Expecting ',' delimiter: line 1 column 308 (char 307)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:24:26] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:24:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:24:26] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:24:34] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:26:39] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:26:40] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:26:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:26:49] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:27:59] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:27:59] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:27:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:28:27] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:29:57] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:33:46] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:33:46] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:33:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:34:22] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 16:35:41] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:01:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:01:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:01:37] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:01:49] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:07:43] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:07:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:07:43] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:07:54] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:08:28] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:11:49] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.133.94:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:14:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:14:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:14:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:15:03] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:17:12] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:21:27] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:21:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:21:27] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:21:51] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:26:03] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:31:22] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:31:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:31:22] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:31:55] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:32:47] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:32:47] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:32:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:33:14] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:35:46] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:44:37] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:44:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:44:37] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:45:33] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:47:49] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:52:53] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:52:53] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:52:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:53:07] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:55:50] "[35m[1mPOST /fetch_article_text/incorrect_answers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 17:55:58] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.251.172.211:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:30:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:30:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:30:30] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:30:33] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:30:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:30:33] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:32:47] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:32:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:32:47] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:51:39] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:51:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:51:39] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:52:12] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:52:16] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:52:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:52:16] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:52:43] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:54:07] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:54:11] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:57:04] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:57:04] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:57:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 10:57:43] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:05:07] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:05:07] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:05:07] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:05:37] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:02] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:02] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:02] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:03] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:03] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:03] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:04] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:05] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:07] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:07] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:07] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:08] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:06:09] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:32:34] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:32:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:32:34] "GET /static/images/yeonj.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:32:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:32:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:32:44] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\tommy\\Documents\\Github\\ESL-web-app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 852-820-424
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:33:22] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:33:22] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:33:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:34:24] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:34:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:34:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:34:49] "[36mGET /static/images/hero-placeholder.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:37:05] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:37:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:37:06] "GET /static/main.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:37:06] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:37:06] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:37:26] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:31] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:43] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:45] "GET /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:46] "GET /submit/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:46] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:50] "GET /submit/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:51] "GET /submit/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:51] "GET /submit/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:52] "GET /submit/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:38:53] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:39:04] "GET /article HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:39:04] "[36mGET /static/article.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:39:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:39:04] "POST /fetch_article_text HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:41:27] "POST /fetch_article_text/incorrect_answers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:31] "GET /grammar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:31] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:31] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:31] "GET /conversation/count HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:32] "GET /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 11:42:51] "GET /static/images/hero-placeholder.jpg HTTP/1.1" 200 -

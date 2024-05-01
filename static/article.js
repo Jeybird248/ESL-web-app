@@ -49,11 +49,10 @@ function createShortAnswerQuestionElement(question, questionIndex) {
     questionText.textContent = question;
     questionDiv.appendChild(questionText);
 
-    const answerInput = document.createElement('input');
-    answerInput.type = 'text';
+    const answerInput = document.createElement('textarea');
     answerInput.name = `short-answer-${questionIndex}`;
     answerInput.id = `short-answer-${questionIndex}`;
-    answerInput.placeholder = 'Your answer...';
+    answerInput.placeholder = 'Your answer...';    
 
     questionDiv.appendChild(answerInput);
 
@@ -114,6 +113,27 @@ async function fetchAndDisplayArticleText() {
             questionsContainer.appendChild(shortAnswerQuestionElement);
             console.log("question added frq")
         });
+        const submitButton = document.createElement('button');
+        submitButton.type = 'submit';
+        submitButton.textContent = 'Submit Answers';
+        submitButton.addEventListener('click', () => {
+            console.log('New button clicked');
+        });
+        questionsContainer.appendChild(submitButton);
+        
+        const newButton = document.createElement('button');
+        newButton.type = 'button';
+        newButton.textContent = 'Restart';
+        newButton.addEventListener('click', () => {
+            const response = fetch('/fetch_article_text/reset', {
+                method: 'POST',
+            });
+    
+            if (!response.ok) {
+                throw new Error(`Fetch error: ${response.status} - ${response.statusText}`);
+            }
+        });
+        questionsContainer.appendChild(newButton);
 
         console.log('Questions displayed on page');
         hideLoadingAnimation();
@@ -163,14 +183,31 @@ document.getElementById('questions-form').addEventListener('submit', async (even
                 });
             }
         });
-        const response = await fetch('/incorrect_answers', {
+
+        const shortAnswers = [];
+        const SAquestions = document.querySelectorAll('.SA-question');
+        // Compare selected answers with correct answers and style them accordingly
+        SAquestions.forEach((question, index) => {
+            const selectedInput = question.querySelector(`textarea[name="short-answer-${index}"]`);
+            if (selectedInput) {
+                const userAnswer = selectedInput.value;
+                shortAnswers.push({
+                    SAquestion: question.querySelector('p').textContent,
+                    userAnswer: userAnswer
+                });
+            }
+        });
+
+        const response = await fetch('/fetch_article_text/incorrect_answers', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ 
                 questions: incorrectAnswersInfo.map(({ question }) => question),
-                correctAnswers: incorrectAnswersInfo.map(({ correctAnswer }) => correctAnswer)
+                correctAnswers: incorrectAnswersInfo.map(({ correctAnswer }) => correctAnswer),
+                SAquestion: shortAnswers.map(({ SAquestion }) => SAquestion),
+                userAnswer: shortAnswers.map(({ userAnswer }) => userAnswer)
             })
         })
         if (!response.ok) {
@@ -193,6 +230,18 @@ document.getElementById('questions-form').addEventListener('submit', async (even
             answerExplanation.textContent = answerExplanations[questionIndex];
             console.log(answerExplanations[questionIndex]);
             lastChoiceContainer.parentNode.insertBefore(answerExplanation, lastChoiceContainer.nextSibling);
+        });
+
+        const SAanswerExplanations = responseData.SA_answer_explanations;
+        // Find existing question elements and append answer text under each radio button
+        const SAquestionDivs = document.querySelectorAll('.SA-question');
+        SAquestionDivs.forEach((questionDiv, questionIndex) => {
+            const selectedInput = questionDiv.querySelector(`textarea[name="short-answer-${questionIndex}"]`);
+
+            const answerExplanation = document.createElement('p');
+            answerExplanation.textContent = SAanswerExplanations[questionIndex];
+            console.log(SAanswerExplanations[questionIndex]);
+            selectedInput.parentNode.insertBefore(answerExplanation, selectedInput.nextSibling);
         });
 
 

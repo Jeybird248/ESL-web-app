@@ -296,9 +296,14 @@ body {
     text-align: center;
 }
 
+#article-text pre {
+    padding: 20px;
+}
+
 /* CSS for question container */
-.question {
-    margin-bottom: 20px;
+.question, .SA-question {
+    margin-bottom: 10px;
+    padding: 20px;
   }
   
   /* CSS for question text */
@@ -346,6 +351,11 @@ body {
     overflow-x: auto;
   }
   
+  textarea {
+    margin-top: 10px;
+    width: 80%;
+  }
+
   .loading-screen {
     position: absolute;
     top: 0;
