@@ -14,9 +14,9 @@ import re
 import random
 
 # Initialize Flask app
-MIXTRAL_URL = 'https://mixtral.k8s-gosha.atlas.illinois.edu/completion'
-MIXTRAL_USERNAME = 'atlasaiteam'
-MIXTRAL_PASSWORD = 'jx@U2WS8BGSqwu'
+MIXTRAL_URL = ''
+MIXTRAL_USERNAME = ''
+MIXTRAL_PASSWORD = ''
 
 # Download NLTK data
 nltk.download('punkt')
